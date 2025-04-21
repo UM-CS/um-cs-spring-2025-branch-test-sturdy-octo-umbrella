@@ -20,6 +20,7 @@ public class Galaxy {
         System.out.println(pickRandom(i));
         network.add(new SpaceStation("Deep Space IV", 20));
         network.get(0).getResidents();
+        System.out.println("WOOHOO! BOOOOOOOOOOOOM! WOOHOO!")
     }
     
 }
