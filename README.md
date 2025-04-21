@@ -4,6 +4,9 @@ Welcome to the VS Code Java world. Here is a guideline to help you get started t
 
 update readme
 
+
+on this branch
+
 ## Folder Structure
 
 The workspace contains two folders by default, where:
