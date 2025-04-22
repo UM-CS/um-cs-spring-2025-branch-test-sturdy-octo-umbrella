@@ -21,5 +21,5 @@ public class Galaxy {
         network.add(new SpaceStation("Deep Space IV", 20));
         network.get(0).getResidents();
     }
-    
+    //comment
 }
