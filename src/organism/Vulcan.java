@@ -1,9 +1,10 @@
 package organism;
 
+import traits.Reparable;
 import type.Alien;
 import type.Crop;
 
-public class Vulcan implements Alien{
+public class Vulcan implements Alien, Reparable{
 
     @Override
     public void talk(Alien a) {
@@ -59,6 +60,17 @@ public class Vulcan implements Alien{
         throw new UnsupportedOperationException("Unimplemented method 'pilot'");
     }
 
+    @Override
+    public boolean isRepaired() {
+        return true; // I set true for organism being in full health. 
+    }
+
+    @Override
+    public void repair() {
+        //maybe increase health here
+        System.out.println("Vulcan repaired using advanced tech.");
+    }
+    
     @Override
     public void harvest(Crop c) {
         // TODO Auto-generated method stub
